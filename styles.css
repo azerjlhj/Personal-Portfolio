@@ -1,0 +1,22 @@
+header {
+    display: grid;
+    grid-template-columns: 55% 45%; 
+    grid-template-rows: 20px 200px;
+    align-items: center;
+    padding: 1.25em 1.5em;
+}
+
+#bigItem {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    justify-self: center;
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+#topNavBar > ul {
+    display: flex;
+    gap: 12px;
+}
