@@ -17,6 +17,7 @@ nav > ul {
 }
 
 #topNavBar > ul {
+    justify-self: end;
     display: flex;
     gap: 12px;
 }
