@@ -22,13 +22,17 @@ header > strong {
 
 h1 {
     font-size: 3em;
-    margin-bottom: .5em;
+    margin-bottom: .3em;
 }
 
 
 
 nav > ul {
     list-style-type: none;
+
+    /* Removes default padding applied by browsers */
+    padding: 0;           
+    margin: 0;
 }
 
 nav > ul > li {
@@ -39,4 +43,9 @@ nav > ul > li {
     justify-self: end;
     display: flex;
     gap: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
 }
