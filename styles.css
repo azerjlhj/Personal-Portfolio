@@ -6,14 +6,33 @@ header {
     padding: 1.25em 1.5em;
 }
 
+header > strong {
+    font-size: 1.5em;
+}
+
 #bigItem {
     grid-column-start: 1;
     grid-column-end: span 2;
     justify-self: center;
 }
 
+#bigItem > * {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+
+
 nav > ul {
     list-style-type: none;
+}
+
+nav > ul > li {
+    font-size: 1.25em;
 }
 
 #topNavBar > ul {
