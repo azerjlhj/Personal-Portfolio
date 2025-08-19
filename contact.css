@@ -1,0 +1,12 @@
+#messageBox {
+    fieldset {
+        border-radius: 1rem;
+        width: 100%;
+    }
+    button {
+        font-family: "Edu NSW ACT Cursive", cursive;
+        background: transparent;
+        border-radius: 1rem;
+        margin-top: 1rem;
+    }
+}
