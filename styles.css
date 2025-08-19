@@ -1,35 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 header {
-    display: grid;
-    grid-template-columns: 55% 45%; 
-    grid-template-rows: 20px 200px;
-    align-items: center;
     padding: 1.25em 1.5em;
+    border-bottom: 6px double black;
 }
 
-header > strong {
-    font-size: 1.5em;
+header strong {
+    font-size: 1.5rem;
+    /* padding-bottom: 0;
+    margin-bottom: 0; */
 }
 
-#bigItem {
-    grid-column-start: 1;
-    grid-column-end: span 2;
-    justify-self: center;
+
+
+#Top {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
 }
 
-#bigItem > * {
+#bigTitle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+}
+
+#bigTitle > * {
     text-align: center;
 }
 
-h1 {
-    font-size: 3em;
+#bigTitle small {
+    font-size: 1.5rem
+}
+
+#bigTitle h1 {
+    font-size: 6em;
     margin-bottom: .3em;
 }
 
-
-
 nav > ul {
     list-style-type: none;
-
     /* Removes default padding applied by browsers */
     padding: 0;           
     margin: 0;
@@ -37,15 +48,78 @@ nav > ul {
 
 nav > ul > li {
     font-size: 1.25em;
+    margin: 0;
+    padding: 0;
 }
 
 #topNavBar > ul {
-    justify-self: end;
     display: flex;
+    justify-self: end;
     gap: 12px;
+}
+
+a:link { /* Unvisited link */
+  color: black;
+  text-decoration: none;
+}
+
+a:visited { 
+  color: black;
+  text-decoration: none;
+}
+
+a:hover { /* Link when the user mouses over it */
+  color: blue;
+  text-decoration: underline;
 }
 
 footer {
     text-align: center;
     padding: 5px;
+}
+
+@media (max-width: 1199.98px) {
+    #bigTitle {
+        margin-bottom: 6rem;
+    }
+
+    #bigTitle h1 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #bigTitle {
+        margin-bottom: 4rem;
+    }
+    #bigTitle h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #Top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bigTitle {
+        margin-bottom: 2.5rem;
+    }
+
+    #bigTitle h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #bigTitle {
+        margin-bottom: 1rem;
+    }
+    #bigTitle h1 {
+        font-size: 2rem;
+    }
+    #bigTitle small {
+        font-size: 1.25rem
+    }
 }
