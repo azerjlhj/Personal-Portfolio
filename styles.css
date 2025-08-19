@@ -3,7 +3,8 @@ body {
 }
 header {
     padding: 1.25em 1.5em;
-    border-bottom: 6px double black;
+    border-bottom: 2px solid black;
+    margin-bottom: .25rem;
 }
 
 header strong {
@@ -73,6 +74,18 @@ a:hover { /* Link when the user mouses over it */
   text-decoration: underline;
 }
 
+main {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid black;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
 footer {
     text-align: center;
     padding: 5px;
@@ -110,6 +123,15 @@ footer {
     #bigTitle h1 {
         font-size: 3rem;
     }
+
+    main {
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: space-around;
+        gap: 3rem;
+    }
+
+    
 }
 
 @media (max-width: 575.98px) {
