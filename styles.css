@@ -32,6 +32,7 @@ header strong {
 #bigTitle h1 {
     font-size: 6em;
     margin-bottom: .3em;
+    font-family: "Edu NSW ACT Cursive", cursive;
 }
 
 nav > ul {
@@ -72,7 +73,10 @@ main {
     display: flex;
     justify-content: space-evenly;
     border-top: 2px solid black;
-    
+}
+
+main h2 {
+    font-family: "Edu NSW ACT Cursive", cursive;
 }
 
 main > section {
@@ -82,6 +86,7 @@ main > section {
 }
 
 footer {
+    font-family: "Edu NSW ACT Cursive", cursive;
     text-align: center;
     font-size: 1.25rem;
     padding-top: 7rem;
