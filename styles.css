@@ -6,19 +6,13 @@ header {
     border-bottom: 2px solid black;
     margin-bottom: .25rem;
 }
-
 header strong {
     font-size: 1.5rem;
-    /* padding-bottom: 0;
-    margin-bottom: 0; */
 }
-
-
 
 #Top {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 #bigTitle {
@@ -78,6 +72,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     border-top: 2px solid black;
+    
 }
 
 main > section {
@@ -88,7 +83,9 @@ main > section {
 
 footer {
     text-align: center;
-    padding: 5px;
+    font-size: 1.25rem;
+    padding-top: 7rem;
+    padding-bottom: 12rem;
 }
 
 @media (max-width: 1199.98px) {
@@ -99,6 +96,11 @@ footer {
     #bigTitle h1 {
         font-size: 5rem;
     }
+
+    footer {
+        padding-top: 6rem;
+        padding-bottom: 10rem;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -107,6 +109,11 @@ footer {
     }
     #bigTitle h1 {
         font-size: 4rem;
+    }
+
+    footer {
+        padding-top: 5rem;
+        padding-bottom: 8rem;
     }
 }
 
@@ -131,7 +138,10 @@ footer {
         gap: 3rem;
     }
 
-    
+    footer {
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -143,5 +153,9 @@ footer {
     }
     #bigTitle small {
         font-size: 1.25rem
+    }
+    footer {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 }
