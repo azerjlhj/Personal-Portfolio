@@ -11,6 +11,9 @@ This portfolio showcases:
 
 The purpose of this portfolio is to share my work, demonstrate my abilities, and connect with potential collaborators, employers, or fellow developers.
 
+## Live Website
+Click [here](personal-portfolio-production-3b12.up.railway.app) to enjoy the live website!
+
 ## Key sections: 
 - **About Me** – A quick introduction to who I am, my background, and what drives me as a developer.  
 - **Projects** – A showcase of my featured work, highlighting the tools, technologies, and skills I used.  
