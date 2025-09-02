@@ -1,0 +1,23 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azerjlhj/Personal-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azerjlhj/Personal-Portfolio/issues"
+  },
+  "homepage": "https://github.com/azerjlhj/Personal-Portfolio#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
