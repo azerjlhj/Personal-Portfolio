@@ -1,0 +1,62 @@
+<%- include('partials/header') %>
+
+<title>Personal Website - Contact</title>
+<link rel="stylesheet" href="/contact.css">
+</head>
+
+<body>
+    <header>
+        <section id="Top">
+            <strong>Azer Jalahej</strong>
+            <nav id="topNavBar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="bigTitle">
+            <h1>Fullstack Developer</h1>
+            <small>Building clean, modern, and scalable web solutions</small>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <h2>Our Contact Information</h2>
+            <address>
+                <p><strong>Address:</strong> 123 Main Street, Springfield, USA</p>
+                <p><strong>Phone:</strong> <a href="tel:+1234567890">(123) 456-7890</a></p>
+                <p><strong>Email:</strong> <a href="mailto:info@myawesomewebsite.com">info@myawesomewebsite.com</a></p>
+            </address>
+        </section>
+
+        <section id="messageBox">
+            <h2>Send Us a Message</h2>
+            <form>
+                <fieldset>
+                    <legend>Your Details</legend>
+
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <label for="message">Message:</label><br>
+                    <textarea rows="10" cols="40" id="message" name="message" rows="6" required></textarea><br><br>
+                </fieldset>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+<%- include('partials/footer') %>
