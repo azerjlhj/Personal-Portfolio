@@ -1,9 +1,6 @@
 # My Personal Portfolio 
 A.k.a. my personal website.
 
-## Demo
-Click [here](https://azerjlhj.github.io/Personal-Portfolio/) to view the live website!
-
 ## About / Description
 I am Azer, a full-stack developer passionate about building modern and responsive web experiences.  
 
